@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&display=swap" rel="stylesheet');
+.App {
+  font-family: Merriweather;
+  text-align: center;
+  margin: 2rem;
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+  color: rgba(32, 31, 31, 0.979);
+}
+input {
+  max-width: 600px;
+  height: 10vh;
+  margin: 2rem 1rem;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #6c5b7b;
+  box-shadow: 1px 2px 3px 4px rgb(75, 53, 53);
+}
+.userOutput {
+  max-width: 600px;
+  height: 10vh;
+  font-size: 1.5rem;
+}
+.emojiOutput {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: auto;
+}
+.emojiOutput span {
+  padding: 0.5rem;
+  border: 1px solid grey;
+  background-color: #c06c84;
+  margin: 0.3rem;
+  box-shadow: 1px 2px 3px 4px rgb(75, 53, 53);
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to left, #355c7d, #6c5b7b, #c06c84);
+}
